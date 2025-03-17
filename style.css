@@ -1,0 +1,13 @@
+body{
+    background-image: url("Képek/háttér.jpg");
+}
+
+#nav{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#h1, #h2{
+    color: white;
+}
