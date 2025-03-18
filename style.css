@@ -10,6 +10,7 @@ body{
 
 #h1, #h2{
     color: white;
+    background-color: rgba(0, 49, 62, 0.7);
 }
 
 .carousel-item {
