@@ -8,12 +8,83 @@ body{
     overflow: hidden;
 }
 
-#h1, #h2{
+#Cim{
     color: white;
-    background-color: rgba(0, 49, 62, 0.7);
 }
 
 .carousel-item {
     background-color: blue;
     height: 300px;
+}
+
+#Naprendszer{
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+}
+
+#naprendszerSáv{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+}
+
+.Bolygó{
+    position: absolute;
+    top: -20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#Nap{
+    left: 0%;
+}
+
+#Merkúr{
+    left: 5%;
+}
+
+#Vénusz{
+    left: 10%;
+}
+
+#Föld{
+    left: 15%;
+}
+
+#Mars{
+    left: 20%;
+}
+
+#Jupiter{
+    left: 40%;
+}
+
+#Szaturnusz{
+    left: 60%;
+}
+
+#Uránusz{
+    left: 80%;
+}
+
+#Neptunusz{
+    left: 95%;
+}
+
+#informaciok {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: none;
+}
+
+.card{
+    margin-left: 5%;
 }
