@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Naprendszer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Naprendszer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bolygók</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Törpebolygók</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Egyéb égitestek</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  73 Érdekesség
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Érdekességek a nagyobb bolgyókról</a></li>
+                  <li><a class="dropdown-item" href="#">Érdekességek a törpebolgyókról</a></li>
+                  <li><a class="dropdown-item" href="#">Érdekességek a Naprendszer további részeiről</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <h1 id="Cim">A Naprendszer Nagyobb Bolygói</h1>
+      <br>
+      <h2 id="Cim" style="margin-left: 5%;">Milyen távol vannak a bolygók?</h2>
+      <div id="Naprendszer">
+        <div id="naprendszerSáv">
+            <div class="Bolygó" id="Nap">☀️</div>
+            <div class="Bolygó" id="Merkúr">🟤</div>
+            <div class="Bolygó" id="Vénusz">🟡</div>
+            <div class="Bolygó" id="Föld">🌍</div>
+            <div class="Bolygó" id="Mars">🔴</div>
+            <div class="Bolygó" id="Jupiter">🟠</div>
+            <div class="Bolygó" id="Szaturnusz">🟡</div>
+            <div class="Bolygó" id="Uránusz">🔵</div>
+            <div class="Bolygó" id="Neptunusz">🔵</div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/nap.jpg" class="img-fluid rounded-start" alt="Kép a napról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Nap</h5>
+              <p class="card-text">A Nap a Naprendszer központi csillaga, egy hatalmas, forró plazmagömb. Tömegének 99,8%-a az egész Naprendszer tömegét adja, és energiája nélkül a Földön nem létezhetne élet. Fúziós reakciói során hidrogént héliummá alakít, hatalmas hő- és fényenergiát sugározva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/merkúr.png" class="img-fluid rounded-start" alt="Kép a Merkúrról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Merkúr</h5>
+              <p class="card-text">A Merkúr a Naphoz legközelebbi bolygó, egy kicsi, kopár, sziklás égitest. Atmoszférája gyakorlatilag nincs, így felszíni hőmérséklete rendkívül ingadozó: nappal akár 430°C is lehet, míg éjszaka -180°C alá süllyed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/vénusz.png" class="img-fluid rounded-start" alt="Kép a Vénuszról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Vénusz</h5>
+              <p class="card-text">A Vénusz a második bolygó a Naptól, és a Föld testvérbolygójának is nevezik, bár pokolian forró és sűrű légköre van. A légkörében tomboló üvegházhatás miatt felszíni hőmérséklete meghaladja a 460°C-ot, így a Naprendszer legforróbb bolygója.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/föld.png" class="img-fluid rounded-start" alt="Kép a Földről">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Föld</h5>
+              <p class="card-text">A Föld az egyetlen ismert bolygó, ahol élet létezik. Vízben gazdag, megfelelő hőmérséklettel és légkörrel rendelkezik, amely lehetővé teszi az élőlények fennmaradását. Holdja segíti a stabil tengelyferdeséget és az árapály-jelenségeket.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/mars.png" class="img-fluid rounded-start" alt="Kép a Marsról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Mars</h5>
+              <p class="card-text">A Mars a "vörös bolygó", amelynek színét a felszínét borító vas-oxid adja. Egykor folyékony víz is lehetett rajta, és ma is az egyik legnagyobb esélyese annak, hogy valaha életet hordozott. Porviharai, vulkánjai és mély kanyonjai lenyűgözőek.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/jupiter.png" class="img-fluid rounded-start" alt="Kép a Jupiterről">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Jupiter</h5>
+              <p class="card-text">A Jupiter a Naprendszer legnagyobb bolygója, egy hatalmas gázóriás. Óriási viharok dúlnak rajta, köztük a híres Nagy Vörös Folt, amely egy több száz éve tomboló anticiklon. Több mint 90 holdja van, köztük az Europa, amely jeges felszíne alatt óceánt rejthet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/szaturnusz.png" class="img-fluid rounded-start" alt="Kép a Szaturnuszról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Szaturnusz</h5>
+              <p class="card-text">A Szaturnusz a gyűrűiről híres gázóriás. Bár több bolygónak is vannak gyűrűi, az övé a leglátványosabb. Könnyebb lenne a víznél, mert főként hidrogénből és héliumból áll. Számos holdja közül a Titán különösen érdekes, mert vastag légköre van.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/uranusz.png" class="img-fluid rounded-start" alt="Kép az Uránuszról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Uránusz</h5>
+              <p class="card-text">Az Uránusz egy jéggázóriás, amely szokatlanul az oldalára van dőlve, így szinte "gurul" a Nap körül. Kékeszöld színét a metán légköri gáz okozza. Hideg, szeles és titokzatos bolygó, amelynek gyűrűi és különleges holdjai is figyelemre méltóak.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Képek/nap.jpg" class="img-fluid rounded-start" alt="Kép a Neptunuszról">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Neptunusz</h5>
+              <p class="card-text">A Neptunusz a Naprendszer legtávolabbi bolygója, egy mélykék gázóriás. Hatalmas viharok és extrém szelek tombolnak rajta, gyorsabbak, mint bármely más bolygón. Legnagyobb holdja, a Triton, visszafelé kering, ami egyedülálló a nagy holdak között.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
