@@ -11,3 +11,8 @@ body{
 #h1, #h2{
     color: white;
 }
+
+.carousel-item {
+    background-color: blue;
+    height: 300px;
+}
