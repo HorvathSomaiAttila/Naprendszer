@@ -1,3 +1,4 @@
+
 body{
     background-image: url("Képek/stars.png");
 }
@@ -6,6 +7,7 @@ body{
     position: sticky;
     top: 0;
     overflow: hidden;
+    z-index: 1000;
 }
 
 #Cim{
@@ -29,6 +31,7 @@ body{
     background-color: white;
     position: relative;
     margin-top: 20px;
+    margin-bottom: 8rem;
 }
 
 .Bolygó{
@@ -36,6 +39,7 @@ body{
     top: -20px;
     font-size: 24px;
     cursor: pointer;
+
 }
 
 #Nap{
@@ -67,11 +71,11 @@ body{
 }
 
 #Uránusz{
-    left: 80%;
+    left: 75%;
 }
 
 #Neptunusz{
-    left: 95%;
+    left: 90%;
 }
 
 #informaciok {
@@ -87,4 +91,13 @@ body{
 
 .card{
     margin-left: 5%;
+}
+
+#bolygóKártyák{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#napKártya{
+    margin: auto;
 }
