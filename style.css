@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("Képek/stars.png");
+    background-image: url("https://images.unsplash.com/photo-1696552004842-8c72b901e2a8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnMlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
 }
 
 #nav{
@@ -91,13 +91,22 @@ body{
 
 .card{
     margin-left: 5%;
+    text-align: justify;
 }
 
 #bolygóKártyák{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #napKártya{
     margin: auto;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
