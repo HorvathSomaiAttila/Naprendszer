@@ -110,3 +110,25 @@ body{
     align-items: center;
     height: 100%;
 }
+
+.carousel-item {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+}
+
+.carousel-item img {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.carousel {
+    background: transparent !important;
+}
