@@ -1,3 +1,4 @@
+
 body{
     background-image: url("https://images.unsplash.com/photo-1696552004842-8c72b901e2a8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnMlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
 }
@@ -129,48 +130,4 @@ body{
 
 .carousel {
     background: transparent !important;
-}
-
-#erdekesseg {
-    margin-top: 20px;
-    padding: 20px;
-    background: #1a1a2e;
-    color: #ffffff;
-    border: 2px solid #0f3460;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(19, 67, 126, 0.8);
-    font-size: 1.2rem;  
-    text-align: center;
-    transition: opacity 0.5s ease-in-out;
-}
-
-select, button {
-    margin: 10px;
-    padding: 8px 16px;
-    background: #0f3460;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-select:hover, button:hover {
-    background: #1a5276;
-}
-
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: white;
-    z-index: 1000;
-}
-
-#bolygokSorban{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
