@@ -5,9 +5,9 @@ const bolygók = {
     "Föld": "Föld - 149,6M km",
     "Mars": "Mars - 227,9M km",
     "Jupiter": "Jupiter - 778,3M km",
-    "Szaturnusz": "Szaturnusz - 1,4B km",
-    "Uránusz": "Uránusz - 2,9B km",
-    "Neptunusz": "Neptunusz - 4,5B km"
+    "Szaturnusz": "Szaturnusz - 1,4Mrd km",
+    "Uránusz": "Uránusz - 2,9Mrd km",
+    "Neptunusz": "Neptunusz - 4,5Mrd km"
 };
 
 const informaciok = document.createElement("div");
